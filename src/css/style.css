@@ -402,15 +402,15 @@
 }
 
 .team-item:hover {
-    border-color: var(--secondary) !important;
+    border-color: var(--primary) !important;
 }
 
 .team-item:hover .bg-primary {
-    background: var(--secondary) !important;
+    background: var(--primary) !important;
 }
 
 .team-item:hover .bg-primary i {
-    color: var(--secondary) !important;
+    color: var(--primary) !important;
 }
 
 

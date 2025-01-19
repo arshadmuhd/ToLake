@@ -17,9 +17,9 @@ export default function About() {
                 <span className="text-primary text-uppercase">ToLake</span>
               </h1>
               <p className="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
+              Discover the enchanting backwaters of Alleppey in style and comfort with our premium houseboat services. 
+              Whether you're looking for a romantic retreat or a family vacation, 
+              we offer the perfect boat for your getaway.
               </p>
               <div className="row g-3 pb-4">
                 {about.map((item, key) => (
@@ -42,35 +42,40 @@ export default function About() {
             </div>
             <div className="col-lg-6">
               <div className="row g-3">
-                <div className="col-6 text-end">
-                  <img
-                    className="img-fluid rounded w-75 wow zoomIn"
-                    data-wow-delay="0.1s"
-                    src="/assets/img/about-1.jpg"
-                    style={{ marginTop: "25%" }}
-                  />
-                </div>
-                <div className="col-6 text-start">
-                  <img
-                    className="img-fluid rounded w-100 wow zoomIn"
-                    data-wow-delay="0.3s"
-                    src="/assets/img/about-2.jpg"
-                  />
-                </div>
-                <div className="col-6 text-end">
-                  <img
-                    className="img-fluid rounded w-50 wow zoomIn"
-                    data-wow-delay="0.5s"
-                    src="/assets/img/about-3.jpg"
-                  />
-                </div>
-                <div className="col-6 text-start">
-                  <img
-                    className="img-fluid rounded w-75 wow zoomIn"
-                    data-wow-delay="0.7s"
-                    src="/assets/img/about-4.jpg"
-                  />
-                </div>
+              <div className="col-6 text-center">
+  <img
+    className="img-fluid rounded w-75 wow zoomIn"
+    data-wow-delay="0.1s"
+    src={`${process.env.PUBLIC_URL}/assets/img/about-1.jpg`}
+    style={{ marginTop: "25%" }}
+    alt="About Image 1"
+  />
+          </div>
+          <div className="col-6 text-start">
+            <img
+              className="img-fluid rounded w-100 wow zoomIn"
+              data-wow-delay="0.3s"
+              src={`${process.env.PUBLIC_URL}/assets/img/about-2.jpg`}
+              alt="About Image 2"
+            />
+          </div>
+          <div className="col-6 text-end">
+            <img
+              className="img-fluid rounded w-50 wow zoomIn"
+              data-wow-delay="0.5s"
+              src={`${process.env.PUBLIC_URL}/assets/img/about-3.jpg`}
+              alt="About Image 3"
+            />
+          </div>
+          <div className="col-6 text-start">
+            <img
+              className="img-fluid rounded w-75 wow zoomIn"
+              data-wow-delay="0.7s"
+              src={`${process.env.PUBLIC_URL}/assets/img/about-4.jpg`}
+              alt="About Image 4"
+            />
+          </div>
+
               </div>
             </div>
           </div>

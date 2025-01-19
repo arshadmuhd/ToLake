@@ -1,0 +1,204 @@
+.shadow1{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+/* .shadow::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(173, 216, 230, 0.7);
+    z-index: 1; 
+  } */
+.social-icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+    
+    position: relative;
+    border-radius: 10px; /* Optional: if you want rounded corners for the container */
+  }
+  
+  .social-icons-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  .social-icon {
+    color: #fff;
+    font-size: 24px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient background for icons */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    position: relative;
+    z-index: 2; /* Ensure the icons are above the overlay */
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+  }
+  
+  
+  /* .social-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  } */
+  
+  .social-icon.whatsapp {
+    background: #25d366;
+  }
+  
+  .social-icon.email {
+    background: #ea4335;
+  }
+  
+  .social-icon.location {
+    background: #ff5722;
+  }
+  
+  .social-icon.bookingSite {
+    background: #007bff;
+  }
+  
+
+  /* Divider */
+.divider {
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+  .contact-info-section {
+    font-family: 'Arial', sans-serif; /* Change the font to something clean and modern */
+    font-size: 16px;
+    color: black; /* Set the color to the requested #4783B5 */
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-weight: 500; /* Make the text slightly bolder for emphasis */
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .contact-info-item i {
+    font-size: 24px; /* Larger icons for better visibility */
+    margin-right: 10px;
+    color: #204462; /* Match the icon color with the text color */
+    transition: color 0.3s ease;
+  }
+  
+  .contact-info-item:hover {
+    transform: translateX(5px); /* Add a subtle slide effect on hover */
+  }
+  
+  .contact-info-item:hover i {
+    color: black; /* Slightly darker icon color on hover */
+  }
+  
+  .contact-text {
+    font-size: 18px; /* Increase the font size for the text */
+    font-weight: 600; /* Make the text bolder for better visibility */
+    letter-spacing: 1px; /* Slightly increase letter spacing for clarity */
+    transition: color 0.3s ease;
+  }
+  
+  .contact-info-item:hover .contact-text {
+    color: #2a6b91; /* Change text color on hover */
+  }
+  /* Social Media Row
+  .social-icons-row {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    color: #555;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+    color: #007bff;
+  }
+   */
+
+  
+
+
+
+
+  .social-icons-row {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    font-size: 30px; /* Slightly larger for emphasis */
+    transition: transform 0.3s ease, color 0.3s ease;
+    background: #fff;
+  }
+  
+  /* Brand Colors */
+  .social-icon.instagram {
+    color: #e1306c; /* Instagram brand color */
+  }
+  
+  .social-icon.instagram:hover {
+    color: #ff6a95;
+    transform: scale(1.2);
+  }
+  
+  .social-icon.facebook {
+    color: #1877f2; /* Instagram brand color */
+  }
+  .social-icon.facebook:hover {
+    transform: scale(1.2);
+  }
+  
+  .social-icon.linkedin {
+    color: #0077b5; /* LinkedIn brand color */
+  }
+  
+  .social-icon.call {
+    color: #4783B5; /* LinkedIn brand color */
+  }
+  .social-icon.linkedin:hover {
+    color: #0592d1;
+    transform: scale(1.2);
+  }
+  
+  .social-icon.youtube {
+    color: #ff0000; /* YouTube brand color */
+  }
+  
+  .social-icon.youtube:hover {
+    color: #ff4d4d;
+    transform: scale(1.2);
+  }
+  
