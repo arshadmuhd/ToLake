@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ToLake/static/css/main.14393bc9.css",
-    "main.js": "/ToLake/static/js/main.f77213aa.js",
+    "main.css": "/ToLake/static/css/main.81a10848.css",
+    "main.js": "/ToLake/static/js/main.5be90c4e.js",
     "static/media/carousel-1.jpg": "/ToLake/static/media/carousel-1.580323fd42819ddb11d9.jpg",
     "static/media/carousel-2.jpg": "/ToLake/static/media/carousel-2.e67221a5c43968e9ef5d.jpg",
     "static/media/video.jpg": "/ToLake/static/media/video.5a8116233761d401c8b1.jpg",
@@ -10,11 +10,11 @@
     "static/media/slick.ttf": "/ToLake/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ToLake/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ToLake/index.html",
-    "main.14393bc9.css.map": "/ToLake/static/css/main.14393bc9.css.map",
-    "main.f77213aa.js.map": "/ToLake/static/js/main.f77213aa.js.map"
+    "main.81a10848.css.map": "/ToLake/static/css/main.81a10848.css.map",
+    "main.5be90c4e.js.map": "/ToLake/static/js/main.5be90c4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.14393bc9.css",
-    "static/js/main.f77213aa.js"
+    "static/css/main.81a10848.css",
+    "static/js/main.5be90c4e.js"
   ]
 }
